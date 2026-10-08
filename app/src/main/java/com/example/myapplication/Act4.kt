@@ -17,6 +17,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -67,8 +68,11 @@ fun ActivitasPertama(modifier: Modifier) {
                     Text(
                         stringResource("Bambang Sumantri"),
                         fontSize = 30.sp,
-                        fontFamily = FontFamily.Cursive
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
                     )
+
                 }
             }
         }
